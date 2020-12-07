@@ -1,0 +1,166 @@
+a {
+    @apply .text-blue-500;
+    @apply .transition;
+    @apply .duration-150;
+    @apply .ease-in-out;
+
+    &:hover {
+        @apply .text-blue-600;
+    }
+
+    &:focus {
+        @apply .text-blue-600;
+    }
+}
+
+.btn {
+    @apply .inline-block;
+    @apply .whitespace-no-wrap;
+    @apply .items-center;
+    @apply .px-4;
+    @apply .py-0;
+    @apply .leading-10;
+    @apply .border;
+    @apply .border-transparent;
+    @apply .text-sm;
+    @apply .font-medium;
+    @apply .rounded-lg;
+    @apply .transition;
+    @apply .duration-150;
+    @apply .ease-in-out;
+    @apply .outline-none;
+    @apply .shadow;
+
+    &:hover {
+        @apply .outline-none;
+    }
+
+    &:focus {
+        @apply .outline-none;
+        @apply .shadow-outline;
+    }
+}
+
+.btn-primary {
+    @apply .text-white;
+    @apply .bg-blue-500;
+
+    &:hover {
+        @apply .bg-blue-600;
+        @apply .text-white;
+    }
+
+    &:focus {
+        @apply .bg-blue-600;
+        @apply .text-white;
+    }
+}
+
+.btn-danger {
+    @apply .text-white;
+    @apply .bg-red-500;
+
+    &:hover {
+        @apply .bg-red-600;
+        @apply .text-white;
+    }
+
+    &:focus {
+        @apply .bg-red-600;
+        @apply .text-white;
+    }
+}
+
+.btn-secondary {
+    @apply .text-gray-800;
+    @apply .bg-white;
+    @apply .shadow;
+
+    &:hover {
+        @apply .text-gray-600;
+        @apply .bg-white;
+    }
+
+    &:focus {
+        @apply .text-gray-600;
+        @apply .bg-white;
+    }
+}
+
+label {
+    @apply .cursor-pointer;
+}
+
+.form-input {
+    @apply .transition;
+    @apply .duration-150;
+    @apply .ease-in-out;
+}
+
+.form-radio,
+.form-checkbox {
+    @apply .text-blue-500;
+    @apply .cursor-pointer;
+}
+
+.laraberg__editor {
+    border: none !important;
+}
+
+.gradbar {
+    background: linear-gradient(90deg,#ff4c7c 0,#09f 50%,#99cb33);
+    height: 6px;
+}
+
+.h-custom {
+    height: 300px;
+
+    @screen md {
+        height: 500px;
+    }
+}
+
+.about-content {
+    h6 {
+        @apply .text-base;
+        @apply .text-gray-500;
+    }
+
+    h1 {
+        @apply .text-5xl;
+        @apply .text-white;
+    }
+
+    h2 {
+        @apply .text-4xl;
+        @apply .text-white;
+    }
+
+    h2 {
+        @apply .text-3xl;
+        @apply .text-white;
+    }
+
+    h3 {
+        @apply .text-2xl;
+        @apply .text-white;
+    }
+
+    h4 {
+        @apply .text-lg;
+        @apply .text-gray-300;
+    }
+
+    p {
+        @apply .text-gray-400;
+        @apply .mt-4;
+    }
+}
+
+.grid-item {
+    width: 200px;
+}
+
+.grid-item--width2 {
+    width: 400px;
+}

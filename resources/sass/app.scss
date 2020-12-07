@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@import 'vendor/bootstrap/bootstrap';
+@import 'custom';
+@import 'blog';
+
+@import url('https://rsms.me/inter/inter.css');
+
+@tailwind utilities;
