@@ -7,10 +7,6 @@ use Illuminate\Support\Facades\Route;
  */
 Route::get('/', 'PublicPageController@index')->name('welcome');
 
-Route::get('/tests', function () {
-    return view('tests');
-})->name('tests');
-
 /*
  * About Page...
  */
