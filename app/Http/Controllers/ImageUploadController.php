@@ -22,9 +22,16 @@ class ImageUploadController extends Controller
      */
     public function __invoke(ImageRequest $request, ?int $user = null)
     {
+        /*
         $data = [
             'image' => Storage::disk('s3')->url(
                 $request->file('image')->store($this->uploads, 's3')
+            ),
+        ];
+        */
+        $data = [
+            'image' => Storage::disk('public')->url(
+                $request->file('image')->store($this->uploads, 'public')
             ),
         ];
 
