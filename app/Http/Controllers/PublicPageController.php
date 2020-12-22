@@ -42,7 +42,7 @@ class PublicPageController extends Controller
                 return Str::contains($activity->type, 'created');
             });
 
-        $announcements = Announcement::wherePublished(true)
+        $announcements = Announcement::where('published', true)
             ->latest()
             ->take(5)
             ->get();

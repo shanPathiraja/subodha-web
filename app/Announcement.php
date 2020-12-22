@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Announcement extends Model
 {   
-    use Publishable; 
+
+    use Publishable;
 
     /**
      * The attributes that are mass assignable.

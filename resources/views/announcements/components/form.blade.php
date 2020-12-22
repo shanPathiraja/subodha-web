@@ -20,7 +20,7 @@
     <div class="mt-12">
         <label class="block">
             <span class="text-gray-700 text-sm font-semibold">Date</span> 
-            <input id="title" type="text" class="form-input block w-full" name="date" placeholder="Enter date for the announcement" value="{{ old('date', $announcement->date) }}" />
+            <input id="title" type="date" class="form-input block w-full" name="date" placeholder="Enter date for the announcement" value="{{ old('date', $announcement->date) }}" />
         </label>
     </div>
 

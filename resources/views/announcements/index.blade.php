@@ -58,6 +58,18 @@
                                 {!! get_excerpt($announcement->description) !!}
                             </p>
 
+                            <div class="mt-4 flex items-center">
+                                @if ($announcement->published)
+                                    <span class="text-sm bg-green-200 text-green-800 hover:text-green-800 px-3 font-medium leading-6 rounded-full">
+                                        Published
+                                    </span>
+                                @else
+                                    <span class="text-sm bg-yellow-200 text-yellow-800 hover:text-yellow-800 px-3 font-medium leading-6 rounded-full">
+                                        Draft
+                                    </span>
+                                @endif
+                            </div>
+
                         </div>
                     </div>
                 </div>
