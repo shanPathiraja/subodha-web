@@ -29,6 +29,16 @@ trait ValidationRules
     }
 
     /**
+     * Get announcement input validation rules.
+     *
+     * @return array
+     */
+    protected function announcementRules()
+    {
+        return config('validation.announcement');
+    }
+
+    /**
      * Get category input validation rules.
      *
      * @return array

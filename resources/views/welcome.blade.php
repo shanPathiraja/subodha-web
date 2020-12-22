@@ -298,6 +298,37 @@
             </div>
         </div>
     </section>
+
+    @if ($announcements->count() > 0)
+    <section class="py-16 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-2xl">Announcements</h3>
+
+                            <h6 class="font-medium max-w-lg">Get in touch with latest news and updates. </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-12">
+
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 mb-8 flex flex-col">
+                    <ul class="list-disc pl-5">
+                        @foreach ($announcements as $announcement)
+                        <li><strong>{{$announcement->date}}</strong> : {{$announcement->description}}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    @endif
+    
 @endsection
 
 @push('scripts')

@@ -131,6 +131,14 @@ Route::group([
     ]);
 
     /*
+     * Announcements Resources Routes...
+     */
+    Route::resource('/announcements', 'AnnouncementsController', [
+        'except' => ['show'],
+    ]);
+
+
+    /*
      * Image Upload Route...
      */
     Route::post('/upload/image/{user?}', 'ImageUploadController')->name('image.upload');

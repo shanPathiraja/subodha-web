@@ -8,7 +8,7 @@
             <div class="flex-1 items-center ml-10 flex">
                 <div class="hidden lg:flex items-center mr-auto">
                     <a href="/home" class="{{ is_active('home', 'text-white bg-gray-800', 'text-gray-300') }} px-3 rounded-lg text-sm font-medium leading-9 hover:text-white hover:bg-gray-800 focus:outline-none focus:text-white focus:bg-gray-800 transition duration-150 ease-in-out">{{ __('Dashboard') }}</a>
-
+               
                     <div class="dropdown ml-4 leading-9">
                         <a href="#" class="{{ is_active('posts*', 'text-white bg-gray-800', 'text-gray-300') }} inline-block px-3 rounded-lg text-sm font-medium leading-9 hover:text-white hover:bg-gray-800 focus:outline-none focus:text-white focus:bg-gray-800 transition duration-150 ease-in-out" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ __('Posts') }}</a>
 
@@ -32,6 +32,8 @@
                             <a class="dropdown-item text-sm font-medium leading-5 py-2" href="{{ route('categories.index') }}">{{ __('Categories') }}</a>
                         </div>
                     </div>
+
+                    <a href="/announcements" class="{{ is_active('announcements', 'text-white bg-gray-800', 'text-gray-300') }} px-3 rounded-lg text-sm font-medium leading-9 hover:text-white hover:bg-gray-800 focus:outline-none focus:text-white focus:bg-gray-800 transition duration-150 ease-in-out">{{ __('Announcements') }}</a>
 
                     {{-- <a href="#" class="{{ is_active('report', 'text-white bg-gray-800', 'text-gray-300') }} ml-4 px-3 rounded-lg text-sm font-medium leading-9 hover:text-white hover:bg-gray-800 focus:outline-none focus:text-white focus:bg-gray-800 transition duration-150 ease-in-out">{{ __('Reports') }}</a> --}}
 

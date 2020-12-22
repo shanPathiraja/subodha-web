@@ -8,6 +8,7 @@ use App\Event;
 use App\Paper;
 use App\Profile;
 use App\Activity;
+use App\Announcement;
 use Illuminate\Support\Str;
 use App\Http\Requests\ProfileRequest;
 
@@ -41,10 +42,16 @@ class PublicPageController extends Controller
                 return Str::contains($activity->type, 'created');
             });
 
+        $announcements = Announcement::wherePublished(true)
+            ->latest()
+            ->take(5)
+            ->get();
+
         return view('welcome', [
             'posts'  => $post,
             'papers' => $paper,
             'recent' => $recent,
+            'announcements' => $announcements,
         ]);
     }
 

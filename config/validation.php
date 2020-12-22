@@ -36,6 +36,14 @@ return [
     ],
 
     /*
+     * Categories Inputs Rules
+     */
+    'announcement' => [
+        'date' => ['required', 'date'],
+        'description' => ['required', 'string'],
+    ],
+
+    /*
      * Client Message Inputs Rules
      */
     'message' => [
