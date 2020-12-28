@@ -17,6 +17,7 @@ class CreateAnnouncementsTable extends Migration
             $table->id();
             $table->date('date');
             $table->text('description');
+            $table->string('label', 191)->nullable();
             $table->boolean('published')->default(false);
             $table->timestamps();
         });

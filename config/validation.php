@@ -41,6 +41,7 @@ return [
     'announcement' => [
         'date' => ['required', 'date'],
         'description' => ['required', 'string'],
+        'category' => ['nullable', 'string'],
     ],
 
     /*

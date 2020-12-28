@@ -8,6 +8,14 @@
 
         <div class="flex items-center w-full md:w-auto mb-4 md:mb-0">
             <div class="flex items-center rounded-lg bg-gray-200 p-px">
+                <label class="block">
+                    <select name="category" class="form-select block w-full bg-white border-none">
+                        <option {{$announcement->category ? '' : 'selected'}} value="None">None</option>
+                        <option {{$announcement->category=="New" ? 'selected' : ''}} value="New">New</option>
+                        <option {{$announcement->category=="Hot" ? 'selected' : ''}} value="Hot">Hot</option>
+                    </select>
+                </label>
+                
                 <label class="ml-3 flex items-center px-3 py-2 rounded-lg bg-gray-200">
                     <input type="checkbox" class="form-checkbox bg-white" value="1" id="published" name="published" @if ($announcement->published) checked @endif>
 

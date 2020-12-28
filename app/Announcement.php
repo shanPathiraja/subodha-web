@@ -19,5 +19,6 @@ class Announcement extends Model
         'date', 
         'description',
         'published',
+        'category'
     ];
 }

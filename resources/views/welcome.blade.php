@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row pb-12">
                 <div class="col-lg-4 mb-10 lg:mb-0 flex flex-col">
                     <div class="flex flex-col flex-1 justify-between bg-gray-800 bg-opacity-50 rounded-lg shadow px-4 py-5 sm:px-6">
                         <div>
@@ -109,6 +109,173 @@
         </div>
     </section>
 
+    <section class="py-16 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-2xl">Highlights / Updates</h3>
+
+                            <h6 class="font-medium max-w-lg">Get in touch with latest news and updates. </h6>
+                        </div>
+
+                        <div class="mt-4 lg:mt-0">
+                            <a href="#">View all <span class="ml-1">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-12">
+
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 mb-8 flex flex-col">
+                    <ul class="list-disc pl-5">
+                        @foreach ($announcements as $announcement)
+                        <li>
+                            <strong>{{$announcement->date}}</strong> : {{$announcement->description}} 
+                            @if ($announcement->category == "New")
+                            <span class="text-sm bg-green-200 text-green-800 hover:text-green-800 px-3 font-medium leading-6 rounded-full">
+                                New
+                            </span>
+                            @elseif ($announcement->category == "Hot")
+                            <span class="text-sm bg-red-200 text-red-800 hover:text-green-800 px-3 font-medium leading-6 rounded-full">
+                                Hot
+                            </span>
+                            @endif
+                        </li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-2xl">Recent Blog Posts</h3>
+
+                            <h6 class="font-medium max-w-lg">Latest articles written about art, sports and other random thoughts</h6>
+                        </div>
+
+                        <div class="mt-4 lg:mt-0">
+                            <a href="{{ route('blog.posts') }}">View all <span class="ml-1">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-12">
+
+            <div class="row">
+                @foreach ($posts as $post)
+                    <div class="col-lg-4 col-sm-6 mb-8 flex flex-col">
+                        <div class="rounded-lg overflow-hidden shadow flex flex-col flex-1">
+                            <div class="h-48">
+                                <img src="{{ $post->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
+                            </div>
+
+                            <div class="px-4 py-5 sm:px-6 bg-gray-100 flex felx-col flex-1">
+                                <div class="flex flex-col flex-1 justify-between">
+                                    <div class="flex flex-col justify-between">
+                                        <div>
+                                            <a href="{{ route('publications.category', ['category' => $post->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-white rounded-full font-medium">
+                                                {{ $post->category->name }}
+                                            </a>
+                                        </div>
+
+                                        <a href="{{ $post->path() }}">
+                                            <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $post->title }}</h4>
+                                        </a>
+
+                                        <div class="mt-4 text-gray-700">
+                                            {!! get_excerpt($post->body, 100) !!}
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-6 flex justify-between items-baseline">
+                                        <a class="text-sm" href="{{ $post->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
+
+                                        <span class="text-sm text-gray-800">{{ $post->updated_at->diffForHumans() }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-2xl">Recent Publications</h3>
+
+                            <h6 class="font-medium max-w-lg">Outcomes of staring at a screen and trying to make sense out of it. </h6>
+                        </div>
+
+                        <div class="mt-4 lg:mt-0">
+                            <a href="{{ route('publications.papers') }}">View all <span class="ml-1">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-12">
+
+            <div class="row">
+                @foreach ($papers as $paper)
+                    <div class="col-lg-4 col-sm-6 mb-8 flex flex-col">
+                        <div class="rounded-lg overflow-hidden shadow flex flex-col flex-1">
+                            <div class="h-48">
+                                <img src="{{ $paper->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
+                            </div>
+
+                            <div class="px-4 py-5 sm:px-6 bg-white flex felx-col flex-1">
+                                <div class="flex flex-col flex-1 justify-between">
+                                    <div class="flex flex-col justify-between">
+                                        <div>
+                                            <a href="{{ route('publications.category', ['category' => $paper->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-gray-200 rounded-full font-medium">
+                                                {{ $paper->category->name }}
+                                            </a>
+                                        </div>
+
+                                        <a href="{{ $paper->path() }}">
+                                            <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $paper->title }}</h4>
+                                        </a>
+
+                                        <div class="mt-1">
+                                            <small>{{ $paper->venue }}</small>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            {{join(", ",$paper->authors)}}
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-6 flex justify-between items-baseline">
+                                        <a class="text-sm" href="{{ $paper->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
+
+                                        <span class="text-sm text-gray-700">{{ $paper->updated_at->diffForHumans() }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
     <section class="py-12 bg-gray-900">
         <div class="container">
             <div class="row">
@@ -178,156 +345,6 @@
             </div>
         </div>
     </section>
-
-    <section class="py-16 bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
-                        <div>
-                            <h3 class="font-bold text-gray-800 text-2xl">Recent Blog Posts</h3>
-
-                            <h6 class="font-medium max-w-lg">Latest articles written about art, sports and other random thoughts</h6>
-                        </div>
-
-                        <div class="mt-4 lg:mt-0">
-                            <a href="{{ route('blog.posts') }}">View all <span class="ml-1">&rarr;</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="my-12">
-
-            <div class="row">
-                @foreach ($posts as $post)
-                    <div class="col-lg-4 col-sm-6 mb-8 flex flex-col">
-                        <div class="rounded-lg overflow-hidden shadow flex flex-col flex-1">
-                            <div class="h-48">
-                                <img src="{{ $post->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
-                            </div>
-
-                            <div class="px-4 py-5 sm:px-6 bg-gray-100 flex felx-col flex-1">
-                                <div class="flex flex-col flex-1 justify-between">
-                                    <div class="flex flex-col justify-between">
-                                        <div>
-                                            <a href="{{ route('publications.category', ['category' => $post->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-white rounded-full font-medium">
-                                                {{ $post->category->name }}
-                                            </a>
-                                        </div>
-
-                                        <a href="{{ $post->path() }}">
-                                            <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $post->title }}</h4>
-                                        </a>
-
-                                        <div class="mt-4 text-gray-700">
-                                            {!! get_excerpt($post->body, 100) !!}
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-6 flex justify-between items-baseline">
-                                        <a class="text-sm" href="{{ $post->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
-
-                                        <span class="text-sm text-gray-800">{{ $post->updated_at->diffForHumans() }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-gray-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
-                        <div>
-                            <h3 class="font-bold text-gray-800 text-2xl">Recent Publications</h3>
-
-                            <h6 class="font-medium max-w-lg">Outcomes of staring at a screen and trying to make sense out of it. </h6>
-                        </div>
-
-                        <div class="mt-4 lg:mt-0">
-                            <a href="{{ route('publications.papers') }}">View all <span class="ml-1">&rarr;</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="my-12">
-
-            <div class="row">
-                @foreach ($papers as $paper)
-                    <div class="col-lg-4 col-sm-6 mb-8 flex flex-col">
-                        <div class="rounded-lg overflow-hidden shadow flex flex-col flex-1">
-                            <div class="h-48">
-                                <img src="{{ $paper->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
-                            </div>
-
-                            <div class="px-4 py-5 sm:px-6 bg-white flex felx-col flex-1">
-                                <div class="flex flex-col flex-1 justify-between">
-                                    <div class="flex flex-col justify-between">
-                                        <div>
-                                            <a href="{{ route('publications.category', ['category' => $paper->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-gray-200 rounded-full font-medium">
-                                                {{ $paper->category->name }}
-                                            </a>
-                                        </div>
-
-                                        <a href="{{ $paper->path() }}">
-                                            <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $paper->title }}</h4>
-                                        </a>
-
-                                        <div class="mt-4">
-                                            {!! get_excerpt($paper->body, 100) !!}
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-6 flex justify-between items-baseline">
-                                        <a class="text-sm" href="{{ $paper->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
-
-                                        <span class="text-sm text-gray-700">{{ $paper->updated_at->diffForHumans() }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    @if ($announcements->count() > 0)
-    <section class="py-16 bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
-                        <div>
-                            <h3 class="font-bold text-gray-800 text-2xl">Announcements</h3>
-
-                            <h6 class="font-medium max-w-lg">Get in touch with latest news and updates. </h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="my-12">
-
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 mb-8 flex flex-col">
-                    <ul class="list-disc pl-5">
-                        @foreach ($announcements as $announcement)
-                        <li><strong>{{$announcement->date}}</strong> : {{$announcement->description}}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    @endif
     
 @endsection
 
