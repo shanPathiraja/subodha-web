@@ -16,47 +16,47 @@
                     </form>
                 </div>
             </div>
+            
+            <div class="row">
+                <div class="col-12 my-10">
+                    <div class="h-1 border-t border-gray-300"></div>
+                </div>
 
             @forelse ($posts as $post)
-                <div class="row">
-                    <div class="col-12 my-10">
-                        <div class="h-1 border-t border-gray-300"></div>
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <div class="mt-2">
-                            <a href="{{ route('blog.posts', ['updated' => $post->updated_at]) }}" class="text-gray-600 font-medium">{{ $post->updated_at->format('F j, Y') }}</a>
+                <div class="col-lg-4 col-sm-6 mb-8 flex flex-col">
+                    <div class="rounded-lg overflow-hidden shadow flex flex-col flex-1">
+                        <div class="h-48">
+                            <img src="{{ $post->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
                         </div>
-                    </div>
 
-                    <div class="col-md-9">
-                        <div>
-                            <div class="mb-4 relative h-64 bg-gray-100 w-full rounded-lg overflow-hidden">
-                                <img src="{{ $post->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full absolute inset-0">
-                            </div>
+                        <div class="px-4 py-5 sm:px-6 bg-gray-100 flex felx-col flex-1">
+                            <div class="flex flex-col flex-1 justify-between">
+                                <div class="flex flex-col justify-between">
+                                    <div>
+                                        <a href="{{ route('blog.category', ['category' => $post->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-white rounded-full font-medium">
+                                            {{ $post->category->name }}
+                                        </a>
+                                    </div>
 
-                            <div class="flex items-center">
-                                <a href="{{ route('blog.category', ['category' => $post->category->slug]) }}" class="text-sm bg-gray-200 text-gray-800 hover:text-gray-800 px-3 font-medium leading-6 rounded-full">
-                                    {{ '#' . (isset($post->category->name) ? $post->category->name : 'Uncategorized') }}
-                                </a>
-                            </div>
+                                    <a href="{{ $post->path() }}">
+                                        <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $post->title }}</h4>
+                                    </a>
 
-                            <a class="mt-4 block" href="{{ $post->path() }}" title="{{ $post->title }}">
-                                <h3 class="font-bold text-gray-800 text-2xl">{{ $post->title }}</h3>
-                            </a>
+                                    <div class="mt-4 text-gray-700">
+                                        {!! get_excerpt($post->body, 100) !!}
+                                    </div>
+                                </div>
 
-                            <div class="mt-4 leading-relaxed">
-                                {!! get_excerpt($post->body) !!}
-                            </div>
+                                <div class="mt-6 flex justify-between items-baseline">
+                                    <a class="text-sm" href="{{ $post->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
 
-                            <div class="mt-4">
-                                <a href="{{ $post->path() }}">
-                                    Read more <span class="ml-1">&rarr;</span>
-                                </a>
+                                    <span class="text-sm text-gray-800">{{ $post->updated_at->diffForHumans() }}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             @empty
                 <div>
                     <span class="text-gray-600 font-medium flex items-center">
@@ -71,6 +71,7 @@
                     </span>
                 </div>
             @endforelse
+            </div>
         </div>
     </section>
 

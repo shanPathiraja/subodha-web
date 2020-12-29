@@ -20,6 +20,7 @@ class CreatePapersTable extends Migration
             $table->json('authors')->nullable();
             $table->string('slug')->unique();
             $table->text('image')->nullable();
+            $table->text('download_link')->nullable();
             $table->string('venue')->nullable();
             $table->boolean('published')->default(false);
             $table->foreignId('category_id');

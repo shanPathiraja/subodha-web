@@ -116,8 +116,17 @@
     </div>
 
     <div class="mt-6">
+        <label class="block">
+            <span class="text-gray-700 text-sm font-semibold">Download Link for Publication</span> 
+            <input id="download_link" type="url" class="form-input block w-full" name="download_link" placeholder="Enter Download Link for the Publication" value="{{ old('download_link', $paper->download_link) }}" />
+        </label>
+    </div>
+
+    <div class="mt-12">
         <div class="rounded-lg overflow-hidden">
             <textarea name="body" id="body" class="rounded-lg" hidden>{{ old('body', $paper->body) }}</textarea>
         </div>
     </div>
+
+    
 </div>

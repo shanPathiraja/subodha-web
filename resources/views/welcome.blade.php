@@ -121,7 +121,7 @@
                         </div>
 
                         <div class="mt-4 lg:mt-0">
-                            <a href="#">View all <span class="ml-1">&rarr;</span></a>
+                            <a href="/highlights">View all <span class="ml-1">&rarr;</span></a>
                         </div>
                     </div>
                 </div>
@@ -152,73 +152,13 @@
         </div>
     </section>
 
-    <section class="py-16 bg-gray-100">
+    <section class="py-16 bg-gray-900">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="flex flex-col md:flex-row justify-start md:justify-between">
                         <div>
-                            <h3 class="font-bold text-gray-800 text-2xl">Recent Blog Posts</h3>
-
-                            <h6 class="font-medium max-w-lg">Latest articles written about art, sports and other random thoughts</h6>
-                        </div>
-
-                        <div class="mt-4 lg:mt-0">
-                            <a href="{{ route('blog.posts') }}">View all <span class="ml-1">&rarr;</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="my-12">
-
-            <div class="row">
-                @foreach ($posts as $post)
-                    <div class="col-lg-4 col-sm-6 mb-8 flex flex-col">
-                        <div class="rounded-lg overflow-hidden shadow flex flex-col flex-1">
-                            <div class="h-48">
-                                <img src="{{ $post->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
-                            </div>
-
-                            <div class="px-4 py-5 sm:px-6 bg-gray-100 flex felx-col flex-1">
-                                <div class="flex flex-col flex-1 justify-between">
-                                    <div class="flex flex-col justify-between">
-                                        <div>
-                                            <a href="{{ route('publications.category', ['category' => $post->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-white rounded-full font-medium">
-                                                {{ $post->category->name }}
-                                            </a>
-                                        </div>
-
-                                        <a href="{{ $post->path() }}">
-                                            <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $post->title }}</h4>
-                                        </a>
-
-                                        <div class="mt-4 text-gray-700">
-                                            {!! get_excerpt($post->body, 100) !!}
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-6 flex justify-between items-baseline">
-                                        <a class="text-sm" href="{{ $post->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
-
-                                        <span class="text-sm text-gray-800">{{ $post->updated_at->diffForHumans() }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
-                        <div>
-                            <h3 class="font-bold text-gray-800 text-2xl">Recent Publications</h3>
+                            <h3 class="font-bold text-white text-2xl">Recent Publications</h3>
 
                             <h6 class="font-medium max-w-lg">Outcomes of staring at a screen and trying to make sense out of it. </h6>
                         </div>
@@ -276,71 +216,53 @@
         </div>
     </section>
 
-    <section class="py-12 bg-gray-900">
+    <section class="py-16 bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div>
-                        <h3 class="font-bold text-white text-2xl">Most Recent</h3>
+                    <div class="flex flex-col md:flex-row justify-start md:justify-between">
+                        <div>
+                            <h3 class="font-bold text-gray-800 text-2xl">Recent Blog Posts</h3>
 
-                        <h6 class="font-medium max-w-lg text-gray-500">Blog posts, Publications and Talks</h6>
+                            <h6 class="font-medium max-w-lg">Latest articles written about art, sports and other random thoughts</h6>
+                        </div>
+
+                        <div class="mt-4 lg:mt-0">
+                            <a href="{{ route('blog.posts') }}">View all <span class="ml-1">&rarr;</span></a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-12 row">
-                @foreach ($recent as $item)
-                    @if ($loop->first)
-                        <div class="col-lg-6">
-                            <a href="{{ $item->subject->path() }}" class="block group rounded-lg overflow-hidden shadow mb-6">
-                                <div class="bg-gray-900 bg-center bg-cover h-48 group" style="background-image: url({{ $item->subject->image ?? 'https://source.unsplash.com/collection/4994391' }})">
-                                    <div class="bg-gray-800 hover:bg-opacity-25 bg-opacity-75 h-full w-full px-4 py-5 sm:px-6 flex items-end transition duration-150 ease-in-out">
+            <hr class="my-12">
+
+            <div class="row">
+                @foreach ($posts as $post)
+                    <div class="col-md-4 col-sm-6">
+                        <a href="{{ $post->path() }}" class="block group rounded-lg overflow-hidden shadow mb-6">
+                            <div class="bg-gray-900 bg-center bg-cover h-48 group" style="background-image: url({{ $post->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }})">
+                                <div class="bg-gray-800 hover:bg-opacity-25 bg-opacity-75 h-full w-full px-4 py-5 sm:px-6 flex items-end transition duration-150 ease-in-out">
+                                    <div>
                                         <div>
-                                            <h4 class="font-bold text-white">{{ $item->subject->title }}</h4>
+                                            <h4 class="font-bold text-white">{{ $post->title }}</h4>
 
                                             <p class="mt-1 text-xs text-gray-300">
-                                                {{ get_excerpt($item->subject->body, 100) }}
+                                                {!! get_excerpt($post->body, 100) !!}
                                             </p>
+                                        </div>
 
-                                            <div class="mt-4 flex items-baseline justify-between">
-                                                <span class="text-xs text-white">
-                                                    {{ '#' . (isset($item->subject->category->name) ? $item->subject->category->name : 'Uncategorized') }}
-                                                </span>
+                                        <div class="mt-4 flex items-baseline justify-between">
+                                            <span class="text-xs text-white">
+                                                {{ '#' . (isset($post->category->name) ? $post->category->name : 'Uncategorized') }}
+                                            </span>
 
-                                                <span class="text-xs text-gray-300">{{ $item->subject->updated_at->diffForHumans() }}</span>
-                                            </div>
+                                            <span class="text-xs text-gray-300">{{ $post->updated_at->diffForHumans() }}</span>
                                         </div>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                    @else
-                        <div class="col-lg-3 col-sm-6">
-                            <a href="{{ $item->subject->path() }}" class="block group rounded-lg overflow-hidden shadow mb-6">
-                                <div class="bg-gray-900 bg-center bg-cover h-48 group" style="background-image: url({{ $item->subject->image ?? 'https://source.unsplash.com/collection/4994391' }})">
-                                    <div class="bg-gray-800 hover:bg-opacity-25 bg-opacity-75 h-full w-full px-4 py-5 sm:px-6 flex items-end transition duration-150 ease-in-out">
-                                        <div>
-                                            <div>
-                                                <h4 class="font-bold text-white">{{ get_excerpt($item->subject->title, 20) }}</h4>
-
-                                                <p class="mt-1 text-xs text-gray-300">
-                                                    {{ get_excerpt($item->subject->body, 60) }}
-                                                </p>
-                                            </div>
-
-                                            <div class="mt-4 flex items-baseline justify-between">
-                                                <span class="text-xs text-white">
-                                                    {{ '#' . (isset($item->subject->category->name) ? $item->subject->category->name : 'Uncategorized') }}
-                                                </span>
-
-                                                <span class="text-xs text-gray-300">{{ $item->subject->updated_at->diffForHumans() }}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    @endif
+                            </div>
+                        </a>
+                    </div>
                 @endforeach
             </div>
         </div>

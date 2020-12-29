@@ -24,6 +24,7 @@ return [
         'published' => ['nullable'],
         'venue' => ['nullable'],
         'authors' => ['nullable'],
+        'download_link' => ['nullable', 'url'],
     ],
 
     /*

@@ -22,7 +22,7 @@ class Paper extends Model
      */
     protected $fillable = [
         'title', 'slug', 'image', 'body', 'user_id',
-        'category_id', 'published', 'venue', 'authors',
+        'category_id', 'published', 'venue', 'authors', 'download_link'
     ];
 
     /**

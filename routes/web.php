@@ -46,6 +46,8 @@ Route::group([
     Route::get('/{post}', 'BlogPostController@show')->name('blog.post');
 });
 
+Route::get('/highlights', 'HighlightController@index');
+
 /*
  * Public View Research Paper Routes...
  */

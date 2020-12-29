@@ -23,15 +23,37 @@
                 <div class="mb-6 col-lg-3">
                     <div class="flex items-center">
                         <div>
+                            <div class="text-xs uppercase font-medium tracking-wide mb-2">Conference</div>
+
+                            <span class="text-xs font-medium mr-2 px-2 py-1 text-blue-800">{{ $paper->venue }}</span>
+                        </div>
+                    </div>
+
+                    <hr class="my-6">
+
+                    <div class="flex items-center">
+                        <div>
                             <div class="text-xs uppercase font-medium tracking-wide mb-2">Authors</div>
 
                             @foreach ($paper->authors as $author)
-                                <span class="text-xs font-medium mr-2 px-2 py-1 rounded-full bg-blue-100 text-blue-800">{{ $author }}</span>
+                                <span class="text-xs font-medium my-2 px-2 py-1 text-blue-800 block">{{ $author }}</span>
                             @endforeach
                         </div>
                     </div>
 
                     <hr class="my-6">
+
+                    @if ($paper->download_link)
+                        <div class="flex items-center">
+                            <div>
+                                <div class="text-xs uppercase font-medium tracking-wide mb-2">View Full Paper</div>
+
+                                <a href="{{$paper->download_link}}" class="text-sm" target="_blank">Download PDF</a>
+                            </div>
+                        </div>
+
+                        <hr class="my-6">
+                    @endif
 
                     @if ($next || $previous)
                         <div class="leading-tight">

@@ -28,7 +28,7 @@
     <div class="mt-12">
         <label class="block">
             <span class="text-gray-700 text-sm font-semibold">Date</span> 
-            <input id="title" type="date" class="form-input block w-full" name="date" placeholder="Enter date for the announcement" value="{{ old('date', $announcement->date) }}" />
+            <input id="title" type="date" class="form-input block w-full" name="date" placeholder="Enter date for the announcement" value="{{ old('date', $announcement->date) }}" required/>
         </label>
     </div>
 
@@ -36,7 +36,7 @@
         <div class="rounded-lg overflow-hidden">
             <label class="block">
                 <span class="text-gray-700 text-sm font-semibold">Description</span> 
-                <textarea name="description" id="body" class="form-input block w-full" rows="5">{{ old('description', $announcement->description) }}</textarea>
+                <textarea name="description" id="body" class="form-input block w-full" rows="5" required>{{ old('description', $announcement->description) }}</textarea>
             </label>
         </div>
     </div>
