@@ -40,9 +40,10 @@
             FilePond
         },
 
+        props: ['featured'],
+
         data() {
             return {
-                featured: null,
                 image: [],
                 serverOptions: {
                     url: '/upload/image',

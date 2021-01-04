@@ -92,7 +92,7 @@
                             @endif
 
                             <div>
-                                <image-uploader></image-uploader>
+                                <image-uploader featured="{{$paper->image}}"></image-uploader>
                             </div>
                         </div>
 

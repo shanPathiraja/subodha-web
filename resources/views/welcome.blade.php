@@ -205,7 +205,7 @@
                                     <div class="mt-6 flex justify-between items-baseline">
                                         <a class="text-sm" href="{{ $paper->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
 
-                                        <span class="text-sm text-gray-700">{{ $paper->date->format('F j, Y') }}</span>
+                                        <span class="text-sm text-gray-700">{{ \Carbon\Carbon::parse($paper->date)->format('F j, Y') }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                                                 {{ '#' . (isset($post->category->name) ? $post->category->name : 'Uncategorized') }}
                                             </span>
 
-                                            <span class="text-xs text-gray-300">{{ $post->date->format('F j, Y') }}</span>
+                                            <span class="text-xs text-gray-300">{{ \Carbon\Carbon::parse($post->date)->format('F j, Y') }}</span>
                                         </div>
                                     </div>
                                 </div>

@@ -33,7 +33,7 @@ class Post extends Model
      * @var array
      */
     protected $casts = [
-        'date' => 'date'
+        
     ];
 
     /**

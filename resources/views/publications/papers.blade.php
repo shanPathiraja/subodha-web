@@ -54,7 +54,7 @@
                                     <div class="mt-10 flex justify-between items-baseline">
                                         <a class="text-sm text-white hover:text-gray-300" href="{{ $paper->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
 
-                                        <span class="text-sm">{{ $paper->date->format('F j, Y') }}</span>
+                                        <span class="text-sm">{{ \Carbon\Carbon::parse($paper->date)->format('F j, Y') }}</span>
                                     </div>
                                 </div>
                             </div>

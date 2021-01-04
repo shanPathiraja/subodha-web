@@ -32,7 +32,6 @@ class Paper extends Model
      */
     protected $casts = [
         'authors' => 'array',
-        'date' => 'date'
     ];
 
     /**

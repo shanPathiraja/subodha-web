@@ -50,7 +50,7 @@
                                 <div class="mt-6 flex justify-between items-baseline">
                                     <a class="text-sm" href="{{ $post->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
 
-                                    <span class="text-sm text-gray-800">{{ $post->date->format('F j, Y') }}</span>
+                                    <span class="text-sm text-gray-800">{{ \Carbon\Carbon::parse($post->date)->format('F j, Y') }}</span>
                                 </div>
                             </div>
                         </div>
