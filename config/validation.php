@@ -12,6 +12,7 @@ return [
         'body' => ['required'],
         'category_id' => ['required', 'integer'],
         'published' => ['nullable'],
+        'date' => ['required', 'date'],
     ],
 
     /*
@@ -25,6 +26,7 @@ return [
         'venue' => ['nullable'],
         'authors' => ['nullable'],
         'download_link' => ['nullable', 'url'],
+        'date' => ['required', 'date'],
     ],
 
     /*

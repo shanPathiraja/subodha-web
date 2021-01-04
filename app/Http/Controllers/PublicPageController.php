@@ -105,4 +105,14 @@ class PublicPageController extends Controller
     {
         return response()->file(public_path('docs/resume_subodhacharles.pdf'));
     }
+
+    /**
+     * Show entrepreneur page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function entrepreneur()
+    {
+        return view('entrepreneur');
+    }
 }

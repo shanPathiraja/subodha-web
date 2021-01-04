@@ -115,6 +115,13 @@
         <input id="title" type="text" class="form-input bg-white block w-full border-none py-4 px-5 text-xl font-bold" name="title" placeholder="Give your paper a title..." value="{{ old('title', $paper->title) }}" />
     </div>
 
+    <div class="mt-12">
+        <label class="block">
+            <span class="text-gray-700 text-sm font-semibold">Date *</span>
+            <input id="title" type="date" class="form-input bg-white block w-full border-none py-4 px-5 text-xl font-bold" name="date" placeholder="Enter date for the paper" value="{{ old('date', $paper->date) }}" required />
+        </label>
+    </div>
+
     <div class="mt-6">
         <label class="block">
             <span class="text-gray-700 text-sm font-semibold">Download Link for Publication</span> 

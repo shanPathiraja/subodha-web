@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <div class="text-base leading-6 font-medium">
-                        <time datetime="{{ $paper->updated_at }}">{{ $paper->updated_at->format('l, F j, Y') }}</time>
+                    <div class="text-base leading-6 font-medium mb-5">
+                        <time datetime="{{ $paper->date }}">{{ $paper->date->format('l, F j, Y') }}</time>
                     </div>
 
                     <h1 class="text-gray-800 font-black text-5xl leading-none">{{ $paper->title }}</h1>

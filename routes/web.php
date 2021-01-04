@@ -24,6 +24,12 @@ Route::put('/about/{profile}', 'PublicPageController@update')
  */
 Route::get('/resume', 'PublicPageController@resume')->name('resume');
 
+
+/*
+ * Entrepreneur Page...
+ */
+Route::get('/entrepreneur', 'PublicPageController@entrepreneur')->name('entrepreneur');
+
 /*
  * Public View Blog Posts Routes...
  */

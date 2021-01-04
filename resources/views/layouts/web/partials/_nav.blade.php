@@ -14,6 +14,19 @@
                     <a class="block text-gray-500 hover:text-gray-100 font-medium" href="{{ route('welcome') }}">Home</a>
                 </li>
 
+                <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
+                    <a class="block text-gray-500 hover:text-gray-100 font-medium" href="{{ route('publications.papers') }}">Researcher</a>
+                </li>
+
+                <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
+                    <a class="block text-gray-500 hover:text-gray-100 font-medium" href="/entrepreneur">Entrepreneur</a>
+                </li>
+
+                <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
+                    <a class="block text-gray-500 hover:text-gray-100 font-medium" href="{{ route('about') }}">About</a>
+                </li>
+                
+                <!--
                 <div class="dropdown text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
                     <a href="#" class="dropdown-toggle block text-gray-500 hover:text-gray-100 font-medium" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
 
@@ -25,10 +38,7 @@
                         <a class="dropdown-item text-sm block text-gray-500 hover:text-gray-100 hover:bg-gray-700 focus:bg-gray-800 font-medium leading-5 py-2" href="{{ route('about', ['page' => 'volunteer']) }}">Volunteer</a>
                     </div>
                 </div>
-
-                <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
-                    <a class="block text-gray-500 hover:text-gray-100 font-medium" href="{{ route('publications.papers') }}">Publications</a>
-                </li>
+                -->
 
                 <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
                     <a class="block text-gray-500 hover:text-gray-100 font-medium" href="{{ route('blog.posts') }}">Blog</a>

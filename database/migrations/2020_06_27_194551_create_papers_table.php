@@ -25,6 +25,7 @@ class CreatePapersTable extends Migration
             $table->boolean('published')->default(false);
             $table->foreignId('category_id');
             $table->foreignId('user_id');
+            $table->date('date');
             $table->timestamps();
         });
     }

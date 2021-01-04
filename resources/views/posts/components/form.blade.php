@@ -33,9 +33,9 @@
 
                         <div class="modal-body pb-0">
                             @if ($post->image)
-                                <div class="relative h-40 bg-gray-200 w-full rounded-lg overflow-hidden mb-4">
-                                    <img src="{{ $post->image }}" class="w-full absolute inset-0">
-                                </div>
+                            <div class="relative h-40 bg-gray-200 w-full rounded-lg overflow-hidden mb-4">
+                                <img src="{{ $post->image }}" class="w-full absolute inset-0">
+                            </div>
                             @endif
 
                             <div>
@@ -59,7 +59,7 @@
             <label class="ml-3 block">
                 <select name="category_id" id="category_id" class="form-select mt-1 block w-full bg-white border-none shadow">
                     @foreach ($categories as $category)
-                        <option @if ($category->is($post->category)) selected @endif value="{{ $category->id }}">{{ $category->name }}</option>
+                    <option @if ($category->is($post->category)) selected @endif value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
                 </select>
             </label>
@@ -68,6 +68,13 @@
 
     <div class="mt-6">
         <input id="title" type="text" class="form-input bg-white block w-full border-none py-4 px-5 text-xl font-bold" name="title" placeholder="Give your post a title..." value="{{ old('title', $post->title) }}" />
+    </div>
+
+    <div class="mt-12">
+        <label class="block">
+            <span class="text-gray-700 text-sm font-semibold">Date *</span>
+            <input id="title" type="date" class="form-input bg-white block w-full border-none py-4 px-5 text-xl font-bold" name="date" placeholder="Enter date for the post" value="{{ old('date', $post->date) }}" required />
+        </label>
     </div>
 
     <div class="mt-6">

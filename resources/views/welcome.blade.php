@@ -180,17 +180,17 @@
                                 <img src="{{ $paper->image ?? 'https://source.unsplash.com/collection/4994391/1980x1080' }}" class="w-full">
                             </div>
 
-                            <div class="px-4 py-5 sm:px-6 bg-white flex felx-col flex-1">
+                            <div class="px-4 py-5 sm:px-6 bg-gray-800 flex felx-col flex-1">
                                 <div class="flex flex-col flex-1 justify-between">
                                     <div class="flex flex-col justify-between">
                                         <div>
-                                            <a href="{{ route('publications.category', ['category' => $paper->category->slug]) }}" class="px-3 py-1 text-sm text-gray-800 hover:text-gray-800 bg-gray-200 rounded-full font-medium">
+                                            <a href="{{ route('publications.category', ['category' => $paper->category->slug]) }}" class="px-3 py-1 text-sm text-gray-200 hover:text-gray-200 bg-gray-900 rounded-full font-medium">
                                                 {{ $paper->category->name }}
                                             </a>
                                         </div>
 
                                         <a href="{{ $paper->path() }}">
-                                            <h4 class="mt-4 text-gray-800 font-semibold text-xl">{{ $paper->title }}</h4>
+                                            <h4 class="mt-4 text-white font-semibold text-xl">{{ $paper->title }}</h4>
                                         </a>
 
                                         <div class="mt-1">
@@ -205,7 +205,7 @@
                                     <div class="mt-6 flex justify-between items-baseline">
                                         <a class="text-sm" href="{{ $paper->path() }}">Continue reading <span class="ml-1">&rarr;</span></a>
 
-                                        <span class="text-sm text-gray-700">{{ $paper->updated_at->diffForHumans() }}</span>
+                                        <span class="text-sm text-gray-700">{{ $paper->date->format('F j, Y') }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                                                 {{ '#' . (isset($post->category->name) ? $post->category->name : 'Uncategorized') }}
                                             </span>
 
-                                            <span class="text-xs text-gray-300">{{ $post->updated_at->diffForHumans() }}</span>
+                                            <span class="text-xs text-gray-300">{{ $post->date->format('F j, Y') }}</span>
                                         </div>
                                     </div>
                                 </div>

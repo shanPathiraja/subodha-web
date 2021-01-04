@@ -24,7 +24,16 @@ class Post extends Model
      */
     protected $fillable = [
         'title', 'slug', 'image', 'body', 'user_id',
-        'category_id', 'published',
+        'category_id', 'published', 'date'
+    ];
+
+    /**
+     * The attributes that should be cast to native types.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'date' => 'date'
     ];
 
     /**

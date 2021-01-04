@@ -22,7 +22,7 @@ class Paper extends Model
      */
     protected $fillable = [
         'title', 'slug', 'image', 'body', 'user_id',
-        'category_id', 'published', 'venue', 'authors', 'download_link'
+        'category_id', 'published', 'venue', 'authors', 'download_link', 'date'
     ];
 
     /**
@@ -32,6 +32,7 @@ class Paper extends Model
      */
     protected $casts = [
         'authors' => 'array',
+        'date' => 'date'
     ];
 
     /**
