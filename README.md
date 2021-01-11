@@ -40,3 +40,7 @@ Upload Max Size : 32 MB *
 Admin Username : subodhatsn@gmail.com
 
 Password : Matrix09
+
+## Storage Link
+
+ln -s /home/subodhac/website-files/storage/app/public /home/subodhac/public_html/storage
