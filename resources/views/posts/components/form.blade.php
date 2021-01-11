@@ -39,7 +39,7 @@
                             @endif
 
                             <div>
-                                <image-uploader></image-uploader>
+                                <image-uploader featured="{{$post->image}}"></image-uploader>
                             </div>
                         </div>
 
