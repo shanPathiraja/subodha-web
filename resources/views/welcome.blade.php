@@ -69,7 +69,7 @@
 
                             <h3 class="mt-6 text-2xl text-white">Entrepreneur</h3>
 
-                            <h6 class="text-xs uppercase tracking-wider font-medium">Energy Solutions | Health care</h6>
+                            <h6 class="text-xs uppercase tracking-wider font-medium">Energy Solutions | Health care | Construction</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
                                 Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka in 2013 and is now serving as a member of the board. His company – Alta Vision (Pvt) Ltd is contributing more than 6MW of power to the national grid through Solar PV systems. The company has invested in other ventures such as a health care center in Sri Lanka and a construction firm.
