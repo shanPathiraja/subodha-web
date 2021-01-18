@@ -45,7 +45,7 @@
 
                             <h3 class="mt-6 text-2xl text-white">Researcher</h3>
 
-                            <h6 class="text-xs uppercase tracking-wider font-medium">Hardware Security and Trust | Embedded Systems</h6>
+                            <h6 class="text-xs uppercase tracking-wider font-medium">Hardware Security and Trust | Embedded Systems | Computer Architecture</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
                                 Subodha’s research work explores how cryptography and machine learning techniques can be utilized to ensure security in resource-constrained embedded and IoT devices. He has published in several top conferences/journals during his short time in the field.
