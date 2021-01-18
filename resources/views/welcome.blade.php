@@ -18,15 +18,15 @@
                             <h3 class="text-3xl text-white"><span class="font-thin">Subodha</span> <span class="font-semibold">Charles</span></h3>
 
                             <p class="mt-4 text-gray-400">
-                                Subodha is a Ph.D. candidate in the CISE department at University of Florida under the supervision of Prof. Prabhat Mishra researching on System-on-Chip (SoC) security.
+                                Subodha is a faculty member at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, researching on hardware security and trust, embedded systems and computer architecture.
                             </p>
 
                             <p class="mt-4 text-gray-400">
-                                He is a co-founder and a member of the board of a Solar PV system installation company based in Sri Lanka. The company has currently invested in other ventures such as a healthcare center in Sri Lanka and a construction firm.
+                                He is also a co-founder and a member of the board of a Solar PV system installation company based in Sri Lanka. The company has currently invested in other ventures such as a healthcare center in Sri Lanka and a construction firm.
                             </p>
 
                             <div class="mt-4">
-                                <a href="mailto:s.charles@ieee.org" class="text-white font-semibold hover:text-blue-200 focus:text-blue-200">Get in touch <span class="ml-1">&rarr;</span></a>
+                                <a href="https://subodhacharles.net/about" class="text-white font-semibold hover:text-blue-200 focus:text-blue-200">Read More <span class="ml-1">&rarr;</span></a>
                             </div>
                         </div>
                     </div>
