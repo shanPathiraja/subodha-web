@@ -45,15 +45,15 @@
 
                             <h3 class="mt-6 text-2xl text-white">Researcher</h3>
 
-                            <h6 class="text-xs uppercase tracking-wider font-medium">System-on-Chip Security | Energy-Aware Computing</h6>
+                            <h6 class="text-xs uppercase tracking-wider font-medium">Hardware Security and Trust | Embedded Systems</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
-                                Subodha’s research work explores how cryptography and machine learning can be utilized to ensure security in resource-constrained embedded and IoT devices. He has published in several top conferences/journals during his short time in the field.
+                                Subodha’s research work explores how cryptography and machine learning techniques can be utilized to ensure security in resource-constrained embedded and IoT devices. He has published in several top conferences/journals during his short time in the field.
                             </p>
                         </div>
 
                         <div class="mt-10">
-                            <a class="text-sm" href="/publictions">View publications <span class="ml-1">&rarr;</span></a>
+                            <a class="text-sm" href="/publications">View publications <span class="ml-1">&rarr;</span></a>
                         </div>
                     </div>
                 </div>
@@ -72,12 +72,12 @@
                             <h6 class="text-xs uppercase tracking-wider font-medium">Energy Solutions | Health care</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
-                                During his time in university, Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka and is now serving as a member of the board. After 7 years of operation, his company – Alta Vision (Pvt) Ltd is contributing more than 6MW of power to the national grid through Solar PV systems. His company has invested in other ventures such as a health care center in Sri Lanka and a construction firm
+                                Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka in 2013 and is now serving as a member of the board. His company – Alta Vision (Pvt) Ltd is contributing more than 6MW of power to the national grid through Solar PV systems. The company has invested in other ventures such as a health care center in Sri Lanka and a construction firm.
                             </p>
                         </div>
 
                         <div class="mt-10">
-                            <a class="text-sm" href="/entrepreneur">View entrepreneurship <span class="ml-1">&rarr;</span></a>
+                            <a class="text-sm" href="/entrepreneur">Read more <span class="ml-1">&rarr;</span></a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                             <h6 class="text-xs uppercase tracking-wider font-medium">IEEE</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
-                                Subodha has been involved in IEEE for more than 8 years starting as a student member. He played a major role in uplifting IEEE activities in Sri Lanka and he was recognised as the best student volunteer in Asia Pacific region in 2015. He is currently serving as the Regional Student Representative of Region 3 and Vice Chair - Education & Awards in IEEE Entrepreneurship steering committee.
+                                Subodha has been involved in IEEE since 2011 starting as a student member. He played a major role in uplifting IEEE activities in Sri Lanka and he was recognised as the best student volunteer in Asia Pacific region in 2015. He is currently serving as the Member at Large in IEEE Entrepreneurship steering committee and as a member of the IEEE MGA Student Activities Committee.
                             </p>
                         </div>
 
