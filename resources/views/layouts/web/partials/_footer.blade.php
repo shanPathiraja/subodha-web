@@ -9,7 +9,7 @@
                 </div>
 
                 <p class="mt-4 text-xs text-gray-500 max-w-sm">
-                    Subodha is a researcher (at the University of Moratuwa), entrepreneur (www.altavision.lk) and a volunteer (at IEEE).
+                    A researcher (University of Moratuwa), entrepreneur (Alta Vision Pvt. Ltd.) and a volunteer (IEEE).
                 </p>
 
                 <ul class="mt-4 flex justify-start text-base">
