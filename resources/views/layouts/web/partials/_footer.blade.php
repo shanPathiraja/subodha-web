@@ -9,7 +9,7 @@
                 </div>
 
                 <p class="mt-4 text-xs text-gray-500 max-w-sm">
-                    Subodha is a Ph.D. candidate in the CISE department at University of Florida under the supervision of Prof. Prabhat Mishra researching on System-on-Chip (SoC) security.
+                    Subodha is a researcher (at the University of Moratuwa), entrepreneur (www.altavision.lk) and a volunteer (at IEEE).
                 </p>
 
                 <ul class="mt-4 flex justify-start text-base">
