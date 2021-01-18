@@ -31,11 +31,11 @@
                         </a>
                     </li>
 
-                    <li class="mr-4">
+                    <!--<li class="mr-4">
                         <a class="font-normal text-gray-500" href="http://fb.com/subodhacharles" target="_blank">
                             <i class="fab fa-facebook"></i>
                         </a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
 
