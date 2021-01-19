@@ -58,7 +58,7 @@ Route::get('/highlights', 'HighlightController@index');
  * Public View Research Paper Routes...
  */
 Route::group([
-    'prefix' => 'publications',
+    'prefix' => 'researcher',
 ], function (): void {
     /*
      * Research Page...
