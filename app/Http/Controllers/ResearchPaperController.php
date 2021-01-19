@@ -51,7 +51,7 @@ class ResearchPaperController extends Controller
             ->search(request('search'))
             ->filter($filters)
             ->with('category')
-            ->latest();
+            ->orderBy('date', 'desc');
 
         foreach ($paper as $paper) {
             if (!$paper->category->exists) {

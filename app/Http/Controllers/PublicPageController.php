@@ -22,13 +22,13 @@ class PublicPageController extends Controller
     public function index()
     {
         $post = Post::wherePublished(true)
-            ->latest()
+            ->orderBy('date', 'desc')
             ->with('category')
             ->take(3)
             ->get();
 
         $paper = Paper::wherePublished(true)
-            ->latest()
+            ->orderBy('date', 'desc')
             ->with('category')
             ->take(3)
             ->get();

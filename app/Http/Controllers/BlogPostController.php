@@ -51,7 +51,7 @@ class BlogPostController extends Controller
             ->search(request('search'))
             ->filter($filters)
             ->with('category')
-            ->latest();
+            ->orderBy('date', 'desc');
 
         foreach ($posts as $post) {
             if (!$post->category->exists) {
