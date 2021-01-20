@@ -63,6 +63,6 @@ class ResearchPaperController extends Controller
             $paper->where('category_id', $category->id);
         }
 
-        return $paper->paginate(10);
+        return $paper->paginate(12);
     }
 }

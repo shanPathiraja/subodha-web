@@ -63,6 +63,6 @@ class BlogPostController extends Controller
             $posts->where('category_id', $category->id);
         }
 
-        return $posts->paginate(10);
+        return $posts->paginate(12);
     }
 }
