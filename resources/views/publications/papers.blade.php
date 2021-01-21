@@ -46,7 +46,7 @@
 
                                         <div class="mt-4">
                                             @foreach ($paper->authors as $author)
-                                                <span class="text-xs font-medium mr-2 px-2 py-1 rounded-full bg-gray-700 text-gray-200">{{ $author }}</span>
+                                                <span class="text-xs font-medium mr-2 px-2 py-1 rounded-full bg-gray-700 text-gray-200" style="white-space: nowrap;">{{ $author }}</span>
                                             @endforeach
                                         </div>
                                     </div>
