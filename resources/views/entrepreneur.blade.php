@@ -7,7 +7,7 @@
             <div class="col-lg-7 col-md-6 mb-6 md:mb-0">
                 <h2 class="text-gray-800 font-bold text-3xl">Entrepreneur</h2>
 
-                <h6 class="font-medium max-w-lg">Outcomes of the daily hustle of planning and execution, and mainly, getting s**t done.</h6>
+                <h6 class="font-medium max-w-lg">Outcomes of the daily hustle of planning and execution, and mainly, getting s**t done</h6>
             </div>
         </div>
 
