@@ -224,7 +224,7 @@
                         <div>
                             <h3 class="font-bold text-gray-800 text-2xl">Recent Blog Posts</h3>
 
-                            <h6 class="font-medium max-w-lg">Latest articles written about art, sports and other random thoughts.</h6>
+                            <h6 class="font-medium max-w-lg">Latest articles about art, sports and other random thoughts.</h6>
                         </div>
 
                         <div class="mt-4 lg:mt-0">
