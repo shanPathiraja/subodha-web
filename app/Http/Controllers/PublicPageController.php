@@ -71,10 +71,10 @@ class PublicPageController extends Controller
                 ->with('profile')
                 ->first(),
             'work' => Event::whereType('work')
-                ->orderBy('period')
+                ->orderBy('id', 'asc')
                 ->get(),
             'awards' => Event::whereType('award')
-                ->orderBy('period')
+                ->orderBy('id', 'asc')
                 ->get(),
         ]);
     }
