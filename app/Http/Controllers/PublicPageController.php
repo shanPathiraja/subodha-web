@@ -115,4 +115,15 @@ class PublicPageController extends Controller
     {
         return view('entrepreneur');
     }
+
+
+    /**
+     * Show volunteer page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function volunteer()
+    {
+        return view('volunteer');
+    }
 }

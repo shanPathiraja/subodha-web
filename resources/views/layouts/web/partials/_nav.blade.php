@@ -25,6 +25,10 @@
                 </li>
 
                 <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
+                    <a class="block text-gray-500 hover:text-gray-100 font-medium" href="/volunteer">Volunteer</a>
+                </li>
+
+                <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
                     <a class="block text-gray-500 hover:text-gray-100 font-medium" href="{{ route('about') }}">About</a>
                 </li>
                 

@@ -30,6 +30,11 @@ Route::get('/resume', 'PublicPageController@resume')->name('resume');
  */
 Route::get('/entrepreneur', 'PublicPageController@entrepreneur')->name('entrepreneur');
 
+/**
+ * Volunteer Page...
+ */
+Route::get('/volunteer', 'PublicPageController@volunteer')->name('volunteer');
+
 /*
  * Public View Blog Posts Routes...
  */
