@@ -29,6 +29,7 @@
 
     <!-- Styles -->
     @include('layouts.partials._css')
+    @yield('PageCSS')
 </head>
 <body class="text-gray-600 antialiased leading-normal font-sans {{ $bgcolor ?? 'bg-white' }} overflow-x-hidden">
     <!-- Main App -->
@@ -38,5 +39,6 @@
 
     <!-- Scripts -->
     @include('layouts.partials._js')
+    @yield('PageJS')
 </body>
 </html>
