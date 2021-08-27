@@ -117,9 +117,6 @@
                             <li>Represented Sri Lanka in IAS Annual Meeting 2015 held in Dallas, Texas, USA</li>
                             <li>Represented Sri Lanka in IEEE Membership Development meeting 2015 held in Piscataway, New Jersey, USA</li>
                         </ul>
-                        <a class="image-link" href="/images/volunteer/ieee-r10-syw15.jpg">
-                            <img src="/images/volunteer/ieee-r10-syw15.jpg" class="thumbnail" />
-                        </a>
                         <a class="image-link" href="/images/volunteer/ieee-ias.png">
                             <img src="/images/volunteer/ieee-ias.png" class="thumbnail" />
                         </a>
@@ -133,6 +130,9 @@
                             <li>Lead the secretariat overseeing the operations of all the committees.</li>
                             <li>IEEE Region 10 Student/YP/WIE Congress 2015 gathered the top leadership of IEEE and more than 250 delegates to Sri Lanka for a 4-day congress to network and learn. <a href="https://drive.google.com/file/d/12bXP4sIereGNhooOuFTkrS9ecTXdbEVw/view?usp=sharing" target="_blank">View Congress Report</a></li>
                         </ul>
+                        <a class="image-link" href="/images/volunteer/ieee-r10-syw15.jpg">
+                            <img src="/images/volunteer/ieee-r10-syw15.jpg" class="thumbnail" />
+                        </a>
                         <a class="image-link" href="/images/volunteer/ieee-r10syw-pic.jpg">
                             <img src="/images/volunteer/ieee-r10syw-pic.jpg" class="thumbnail" />
                         </a>
