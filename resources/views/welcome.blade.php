@@ -22,7 +22,7 @@
                             </p>
 
                             <p class="mt-4 text-gray-400">
-                                He is also a co-founder and a member of the board of a Solar PV system installation company based in Sri Lanka. The company has currently invested in other ventures such as a healthcare center in Sri Lanka and a construction firm.
+                            He is also a co-founder and a member of the board of a Solar PV system installation company based in Sri Lanka. The company has currently invested in other ventures such as a healthcare center in Sri Lanka, a construction firm and a digital marketing company.
                             </p>
 
                             <div class="mt-4">
@@ -72,7 +72,7 @@
                             <h6 class="text-xs uppercase tracking-wider font-medium">Energy Solutions | Health care | Construction</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
-                                Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka in 2013 and is now serving as a member of the board. His company – Alta Vision (Pvt) Ltd is contributing more than 6MW of power to the national grid through Solar PV systems. The company has invested in other ventures such as a health care center in Sri Lanka and a construction firm.
+                                Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka in 2013 and is now serving as a member of the board. His company – Alta Vision (Pvt) Ltd is contributing more than 6MW of power to the national grid through Solar PV systems. The company has invested in other ventures such as a health care center in Sri Lanka, a construction firm and a digital marketing company.
                             </p>
                         </div>
 
