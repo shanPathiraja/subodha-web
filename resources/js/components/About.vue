@@ -48,6 +48,17 @@
                             <input v-else type="text" name="resume" v-model="resume" class="bg-transparent text-gray-200">
                         </dd>
                     </div>
+
+                    <div class="mt-2 grid grid-cols-3 gap-4">
+                        <dt class="text-sm leading-5 text-gray-500">
+                            Google Scholar
+                        </dt>
+
+                        <dd class="text-sm leading-5 whitespace-no-wrap">
+                            <a href="https://scholar.google.com/citations?hl=en&user=VhyUxgcAAAAJ" target="_blank">Visit Site</a>
+
+                        </dd>
+                    </div>
                 </div>
             </div>
 

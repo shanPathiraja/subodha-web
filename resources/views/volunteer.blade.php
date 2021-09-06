@@ -35,6 +35,9 @@
                         <p>
                             
                         </p>
+                        <a class="image-link" href="/images/volunteer/ieee-students.png">
+                            <img src="/images/volunteer/ieee-students.png" class="thumbnail" />
+                        </a>
                     </div>
 
                     <div class="timeline-item" date-is=''>
@@ -42,6 +45,9 @@
                         <p>
                             
                         </p>
+                        <a class="image-link" href="/images/volunteer/ieee-lk.png">
+                            <img src="/images/volunteer/ieee-lk.png" class="thumbnail" />
+                        </a>
                     </div>
 
                     <div class="timeline-item" date-is=''>
@@ -49,6 +55,9 @@
                         <p>
                             
                         </p>
+                        <a class="image-link" href="/images/volunteer/ieee-en.png">
+                            <img src="/images/volunteer/ieee-en.png" class="thumbnail" />
+                        </a>
                     </div>
 
                     <div class="timeline-item" date-is='2020'>
@@ -122,8 +131,8 @@
                             The IEEE Sections Congress is a triennial gathering of Section leadership that includes four days of working sessions and networking. The Sections Congress involves hundreds of delegates from all ten IEEE Regions. At the Congress, they learn how to utilize the resources of IEEE to maximize their effectiveness as IEEE volunteer leaders. Subodha worked as a part of the publicity team that developed the Sponsorship Proposal and the Website. 
                             <a href="https://drive.google.com/file/d/1KnuKHRxQI9BbrBcTv9zLxFjXT-RmB7e4/view?usp=sharing" target="_blank">View sponsorship proposal</a>
                         </p>
-                        <a class="image-link" href="/images/volunteer/ieee-en.png">
-                            <img src="/images/volunteer/ieee-en.png" class="thumbnail" />
+                        <a class="image-link" href="/images/volunteer/ieee-en-2.png">
+                            <img src="/images/volunteer/ieee-en-2.png" class="thumbnail" />
                         </a>
                     </div>
 
@@ -161,9 +170,6 @@
                         <h1 class="text-gray-800 font-bold">Co-Chair - IEEE Presidents Forum 2019</h1>
                         <p>
                             The IEEE Presidents Forum is a Town Hall type event which provides an opportunity for the participants to ask questions directly from the IEEE leadership, learn about the organization and discuss what IEEE does well. The 2019 Presidents Forum saw the participation of José M. F. Moura (IEEE President & CEO 2019), Jim Jefferies (IEEE President & CEO 2018) and Stephen Welby (Executive DIrector, IEEE). Subodha was the Co-Chair of the event and also, moderated the panel discussion.
-                            <ul class="list-disc pl-5">
-                                <li>Co-Chair, IEEE Presidents Forum 2019</li>
-                            </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-pf19.png">
                             <img src="/images/volunteer/ieee-pf19.png" class="thumbnail" />
@@ -208,7 +214,7 @@
                     </div>
 
                     <div class="timeline-item" date-is=''>
-                        <h1 class="text-gray-800 font-bold">Steering Committee Chair - Chapter & Membership Development Committee, IEEE IAS</h1>
+                        <h1 class="text-gray-800 font-bold">South Asia Area Chair - Chapter & Membership Development Committee, IEEE IAS</h1>
                         <p>
 
                         </p>
@@ -231,7 +237,7 @@
                     </div>
 
                     <div class="timeline-item" date-is=''>
-                        <h1 class="text-gray-800 font-bold">South Asia Area Chair - Chapter & Membership Development Committee, IEEE IAS</h1>
+                        <h1 class="text-gray-800 font-bold">Steering Committee Chair - Chapter & Membership Development Committee, IEEE IAS</h1>
                         <p>
                             <ul class="list-disc pl-5">
                                 <li>Represented IAS in IEEE Asia Pacific Congress 2017 held in Bali, Indonesia</li>
