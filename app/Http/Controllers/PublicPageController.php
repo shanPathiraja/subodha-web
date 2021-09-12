@@ -103,7 +103,7 @@ class PublicPageController extends Controller
      */
     public function resume()
     {
-        return response()->file(public_path('docs/resume_subodhacharles.pdf'));
+        return response()->file(public_path('docs/resume.pdf'));
     }
 
     /**
