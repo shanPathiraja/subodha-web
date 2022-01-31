@@ -18,11 +18,11 @@
                             <h3 class="text-3xl text-white"><span class="font-thin">Subodha</span> <span class="font-semibold">Charles</span></h3>
 
                             <p class="mt-4 text-gray-400">
-                                Subodha is a faculty member at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, researching on hardware security and trust, embedded systems and computer architecture.
+                            Subodha is a faculty member at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, researching on hardware security and trust, embedded systems and computer architecture.
                             </p>
 
                             <p class="mt-4 text-gray-400">
-                            He is also a co-founder and a member of the board of a Solar PV system installation company based in Sri Lanka. The company has currently invested in other ventures such as a healthcare center in Sri Lanka, a construction firm and a digital marketing company.
+                            He is also the group chairman of Pearl Cluster - a group of companies based in Sri Lanka operating in the energy, construction, software, digital marketing and healthcare sectors.
                             </p>
 
                             <div class="mt-4">
@@ -72,7 +72,7 @@
                             <h6 class="text-xs uppercase tracking-wider font-medium">Energy Solutions | Health care | Construction</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
-                                Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka in 2013 and is now serving as a member of the board. His company – Alta Vision (Pvt) Ltd is contributing more than 6MW of power to the national grid through Solar PV systems. The company has invested in other ventures such as a health care center in Sri Lanka, a construction firm and a digital marketing company.
+                            Subodha launched a startup with his colleagues focusing on the energy sector of Sri Lanka in 2013 and that company – Alta Vision (Pvt) Ltd is currently a market leader in Solar PV system installations in Sri Lanka. Alta Vision (Pvt) Ltd has expanded to other domains and is now operating as a group of companies - “Pearl Cluster”, operating in the energy, construction, software, digital marketing and healthcare sectors.
                             </p>
                         </div>
 
@@ -96,7 +96,7 @@
                             <h6 class="text-xs uppercase tracking-wider font-medium">IEEE</h6>
 
                             <p class="mt-4 text-gray-500 text-sm">
-                                Subodha has been involved in IEEE since 2011 starting as a student member. He played a major role in uplifting IEEE activities in Sri Lanka and he was recognised as the best student volunteer in Asia Pacific region in 2015. He is currently serving as the Member at Large in IEEE Entrepreneurship steering committee and as a member of the IEEE MGA Student Activities Committee.
+                            Subodha has been involved in IEEE since 2011 starting as a student member. He played a major role in uplifting IEEE activities in Sri Lanka and he was recognised as the best student volunteer in Asia Pacific region in 2015. He is currently serving as a member of the IEEE MGA Student Activities Committee, IEEE Entrepreneurship and IEEE Industry Engagement Committee.
                             </p>
                         </div>
 

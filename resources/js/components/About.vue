@@ -43,9 +43,7 @@
                         </dt>
 
                         <dd class="text-sm leading-5 whitespace-no-wrap">
-                            <a v-if="! edit" :href="resume">CV</a>
-
-                            <input v-else type="text" name="resume" v-model="resume" class="bg-transparent text-gray-200">
+                            <a href="/docs/resume_subodhacharles.pdf">Resumé</a><br><a href="/docs/cv_subodhacharles.pdf">CV</a>
                         </dd>
                     </div>
 
