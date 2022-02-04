@@ -30,10 +30,10 @@
             <div class="col-md-12">
                 <div class="container">
 
-                    <div class="timeline-item" date-is='2021'>
-                        <h1 class="text-gray-800 font-bold">Member, IEEE MGA Student Activities Committee</h1>
+                    <div class="timeline-item" date-is='2022'>
+                        <h1 class="text-gray-800 font-bold">Vice-Chair for Membership, IEEE MGA Student Activities Committee</h1>
                         <p>
-                            
+
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-students.png">
                             <img src="/images/volunteer/ieee-students.png" class="thumbnail" />
@@ -41,9 +41,48 @@
                     </div>
 
                     <div class="timeline-item" date-is=''>
+                        <h1 class="text-gray-800 font-bold">Tools Working Group, IEEE Industry Engagement Committee</h1>
+                        <p>
+
+                        </p>
+                        <a class="image-link" href="/images/volunteer/ieee-students.png">
+                            <img src="/images/volunteer/ieee-iec.png" class="thumbnail" />
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" date-is=''>
+                        <h1 class="text-gray-800 font-bold">Tech Transfer Team, IEEE Entrepreneurship</h1>
+                        <p>
+
+                        </p>
+                        <a class="image-link" href="/images/volunteer/ieee-students.png">
+                            <img src="/images/volunteer/ieee-en.png" class="thumbnail" />
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" date-is='2021'>
+                        <h1 class="text-gray-800 font-bold">Member, IEEE MGA Student Activities Committee</h1>
+                        <p>
+                        <ul class="list-disc pl-5">
+                            <li>MGA SAC is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) board.</li>
+                            <li>Subodha worked on membership retention and recovery initiatives focusing on adding value to both new and existing members.</li>
+                        </ul>
+                        </p>
+                        <a class="image-link" href="/images/volunteer/ieee-students.png">
+                            <img src="/images/volunteer/ieee-students.png" class="thumbnail" />
+                        </a>
+                        <a class="image-link" href="/images/volunteer/mga-sac-2020.jpg">
+                            <img src="/images/volunteer/mga-sac-2020.jpg" class="thumbnail" />
+                        </a>
+                    </div>
+
+                    <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Secretary, IEEE Sri Lanka Section</h1>
                         <p>
-                            
+                        <ul class="list-disc pl-5">
+                            <li>IEEE Sri Lanka Section is home to IEEE members in Sri Lanka.</li>
+                            <li>Subodha worked as part of the Section executive committee.</li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-lk.png">
                             <img src="/images/volunteer/ieee-lk.png" class="thumbnail" />
@@ -51,23 +90,41 @@
                     </div>
 
                     <div class="timeline-item" date-is=''>
-                        <h1 class="text-gray-800 font-bold">Member-at-Large - IEEE Entrepreneurship Steering Committee</h1>
+                        <h1 class="text-gray-800 font-bold">Member-at-Large, IEEE Entrepreneurship Steering Committee</h1>
                         <p>
-                            
+                        <ul class="list-disc pl-5">
+                            <li>The IEEE Entrepreneurship Steering Committee strives to engage engineering-driven entrepreneurs and the surrounding startup ecosystem with the IEEE.</li>
+                            <li>As a part of developing educational materials to entrepreneurs, Subodha worked on developing a course for ILN (IEEE Learning Network) on the topic “Introduction to Digital Marketing”</li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-en.png">
                             <img src="/images/volunteer/ieee-en.png" class="thumbnail" />
                         </a>
                     </div>
 
+                    <div class="timeline-item" date-is=''>
+                        <h1 class="text-gray-800 font-bold">Member - Tools Working Group, IEEE Industry Engagement Committee</h1>
+                        <p>
+                        <ul class="list-disc pl-5">
+                            <li>Industry Engagement Committee facilitates industry engagement activities across IEEE, identifies and acts on opportunities, gaps, and overlaps across IEEE, launches initiatives, and recommends to the IEEE Board needed development of products and services that meet the needs of industry, government, and industry professionals.</li>
+                            <li>As a part of the Tools Working Group, Subodha worked on developing a customer relationship management (CRM) tool to manage industry engagement activities - IEEE Industry Relations Platform.</li>
+                            <li>The IEEE Industry Relations Platform (IRP) is a centralized web application for IEEE organizational units and committee members to manage all aspects of their partnerships, contacts and related activities.</li>
+                            <li><a href="https://youtube.com/playlist?list=PL_CljM2YZhwYzymeo7NhHF6SFepRuveWo" target="_blank">Learn more about the IEEE Industry Relations Platform</a></li>
+                        </ul>
+                        </p>
+                        <a class="image-link" href="/images/volunteer/ieee-en.png">
+                            <img src="/images/volunteer/ieee-iec.png" class="thumbnail" />
+                        </a>
+                    </div>
+
                     <div class="timeline-item" date-is='2020'>
                         <h1 class="text-gray-800 font-bold">Regional Student Representative, IEEE Region 3</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>IEEE Region 3 is home to organizational units in the Southern U.S and serves IEEE members in Alabama, Florida, Georgia, Jamaica, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee and Virginia.</li>
-                                <li>Subodha was a part of the Regional Student Activities Committee as the Regional Student Representative.</li>
-                                <li>The student activities committee mainly oversaw the student program and competitions at SoutheastCon 2020 - the flagship conference of IEEE Region 3.</li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>IEEE Region 3 is home to organizational units in the Southern U.S and serves IEEE members in Alabama, Florida, Georgia, Jamaica, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee and Virginia.</li>
+                            <li>Subodha was a part of the Regional Student Activities Committee as the Regional Student Representative.</li>
+                            <li>The student activities committee mainly oversaw the student program and competitions at SoutheastCon 2020 - the flagship conference of IEEE Region 3.</li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-r3.png">
                             <img src="/images/volunteer/ieee-r3.png" class="thumbnail" />
@@ -80,11 +137,11 @@
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Vice-Chair – Education & Awards, IEEE Entrepreneurship Steering Committee</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>The IEEE Entrepreneurship Steering Committee strives to engage engineering-driven entrepreneurs and the surrounding startup ecosystem with the IEEE.</li>
-                                <li>Subodha worked on setting up the IEEE Entrepreneurship Impact Award, which recognizes an individual who has had a significant impact on the engineering-driven entrepreneurial ecosystem.</li>
-                                <li>Subodha was also part of several events as a speaker and also as a judge of the IEEE Entrepreneurship Stars program.</li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>The IEEE Entrepreneurship Steering Committee strives to engage engineering-driven entrepreneurs and the surrounding startup ecosystem with the IEEE.</li>
+                            <li>Subodha worked on setting up the IEEE Entrepreneurship Impact Award, which recognizes an individual who has had a significant impact on the engineering-driven entrepreneurial ecosystem.</li>
+                            <li>Subodha was also part of several events as a speaker and also as a judge of the IEEE Entrepreneurship Stars program.</li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-en.png">
                             <img src="/images/volunteer/ieee-en.png" class="thumbnail" />
@@ -97,13 +154,13 @@
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Member, IEEE Innovation Nation Leadership Team</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>IEEE Innovation Nation is organized to foster entrepreneurship in low-GDP countries by providing guidance, mentorship and finances to startups.</li>
-                                <li>The project is funded by the IEEE New Initiatives Committee.</li>
-                                <li>The 2020 IEEE Innovation Nation program took place in four countries (compared to the two countries in 2019) - Bosnia & Herzegovina, Sri Lanka, Malaysia and Jamaica (pilot program).</li>
-                                <li>Subodha was a part of the leadership team that oversaw the programs.</li>
-                                <li><a href="https://entrepreneurship.ieee.org/ieee-innovation-nation/" target="_blank">Learn more about IEEE Innovation Nation Program</a></li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>IEEE Innovation Nation is organized to foster entrepreneurship in low-GDP countries by providing guidance, mentorship and finances to startups.</li>
+                            <li>The project is funded by the IEEE New Initiatives Committee.</li>
+                            <li>The 2020 IEEE Innovation Nation program took place in four countries (compared to the two countries in 2019) - Bosnia & Herzegovina, Sri Lanka, Malaysia and Jamaica (pilot program).</li>
+                            <li>Subodha was a part of the leadership team that oversaw the programs.</li>
+                            <li><a href="https://entrepreneurship.ieee.org/ieee-innovation-nation/" target="_blank">Learn more about IEEE Innovation Nation Program</a></li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-in-2020.png">
                             <img src="/images/volunteer/ieee-in-2020.png" class="thumbnail" />
@@ -113,12 +170,12 @@
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Co-Founder and Liaison to SL2College, IEEE SLInspire</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>SLInspire was launched with the goal of providing equal access to quality education to all student communities in Sri Lanka. To achieve that, SLInspire provides online educational resources that are critical to assist students’ journey through A/Ls and beyond.</li>
-                                <li>The project is funded by the IEEE New Initiatives Committee.</li>
-                                <li>Subodha was the initiative champion of the proposal (IEEE Inspire) submitted to the IEEE New Initiatives Committee and oversaw the project execution.</li>
-                                <li><a href="https://slinspire.lk/" target="_blank">Learn more about IEEE SLInspire</a></li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>SLInspire was launched with the goal of providing equal access to quality education to all student communities in Sri Lanka. To achieve that, SLInspire provides online educational resources that are critical to assist students’ journey through A/Ls and beyond.</li>
+                            <li>The project is funded by the IEEE New Initiatives Committee.</li>
+                            <li>Subodha was the initiative champion of the proposal (IEEE Inspire) submitted to the IEEE New Initiatives Committee and oversaw the project execution.</li>
+                            <li><a href="https://slinspire.lk/" target="_blank">Learn more about IEEE SLInspire</a></li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/slin.png">
                             <img src="/images/volunteer/slin.png" class="thumbnail" />
@@ -128,7 +185,7 @@
                     <div class="timeline-item" date-is='2019'>
                         <h1 class="text-gray-800 font-bold">Member - Publicity Committee, IEEE Sections Congress 2020</h1>
                         <p>
-                            The IEEE Sections Congress is a triennial gathering of Section leadership that includes four days of working sessions and networking. The Sections Congress involves hundreds of delegates from all ten IEEE Regions. At the Congress, they learn how to utilize the resources of IEEE to maximize their effectiveness as IEEE volunteer leaders. Subodha worked as a part of the publicity team that developed the Sponsorship Proposal and the Website. 
+                            The IEEE Sections Congress is a triennial gathering of Section leadership that includes four days of working sessions and networking. The Sections Congress involves hundreds of delegates from all ten IEEE Regions. At the Congress, they learn how to utilize the resources of IEEE to maximize their effectiveness as IEEE volunteer leaders. Subodha worked as a part of the publicity team that developed the Sponsorship Proposal and the Website.
                             <a href="https://drive.google.com/file/d/1KnuKHRxQI9BbrBcTv9zLxFjXT-RmB7e4/view?usp=sharing" target="_blank">View sponsorship proposal</a>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-en-2.png">
@@ -139,10 +196,10 @@
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Vice Chair - Education & Awards, IEEE Entrepreneurship Steering Committee</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>The IEEE Entrepreneurship Steering Committee strives to engage engineering-driven entrepreneurs and the surrounding startup ecosystem with the IEEE.</li>
-                                <li>Subodha worked on generating educational materials for the entrepreneurship ecosystem in IEEE and developing awards programs to recognize exceptional talent. </li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>The IEEE Entrepreneurship Steering Committee strives to engage engineering-driven entrepreneurs and the surrounding startup ecosystem with the IEEE.</li>
+                            <li>Subodha worked on generating educational materials for the entrepreneurship ecosystem in IEEE and developing awards programs to recognize exceptional talent. </li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-en.png">
                             <img src="/images/volunteer/ieee-en.png" class="thumbnail" />
@@ -152,14 +209,14 @@
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Member, IEEE Innovation Nation Leadership Team</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>IEEE Innovation Nation is organized to foster entrepreneurship in low-GDP countries by providing guidance, mentorship and finances to startups.</li>
-                                <li>The project is funded by the IEEE New Initiatives Committee.</li>
-                                <li>The 2019 IEEE Innovation Nation program took place in Bosnia & Herzegovina and Sri Lanka.</li>
-                                <li>Subodha was a part of the leadership team that oversaw both the programs.</li>
-                                <li><a href="https://youtu.be/TAQr0BK3jag" target="_blank">Watch IEEE Innovation Nation Sri Lanka 2019 After Movie</a></li>
-                                <li><a href="https://entrepreneurship.ieee.org/ieee-innovation-nation/" target="_blank">Learn more about IEEE Innovation Nation Program</a></li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>IEEE Innovation Nation is organized to foster entrepreneurship in low-GDP countries by providing guidance, mentorship and finances to startups.</li>
+                            <li>The project is funded by the IEEE New Initiatives Committee.</li>
+                            <li>The 2019 IEEE Innovation Nation program took place in Bosnia & Herzegovina and Sri Lanka.</li>
+                            <li>Subodha was a part of the leadership team that oversaw both the programs.</li>
+                            <li><a href="https://youtu.be/TAQr0BK3jag" target="_blank">Watch IEEE Innovation Nation Sri Lanka 2019 After Movie</a></li>
+                            <li><a href="https://entrepreneurship.ieee.org/ieee-innovation-nation/" target="_blank">Learn more about IEEE Innovation Nation Program</a></li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-in-2019.jpg">
                             <img src="/images/volunteer/ieee-in-2019.jpg" class="thumbnail" />
@@ -229,7 +286,7 @@
                     <div class="timeline-item" date-is='2017'>
                         <h1 class="text-gray-800 font-bold">Finance Committee Member, IEEE Sections Congress 2017</h1>
                         <p>
-                        The IEEE Sections Congress is a triennial gathering of Section leadership that includes four days of working sessions and networking. The Sections Congress involves hundreds of delegates from all ten IEEE Regions. At the Congress, they learn how to utilize the resources of IEEE to maximize their effectiveness as IEEE volunteer leaders. Subodha worked on developing the Sponsorship Proposal, Website and worked for fundraising. <a href="https://drive.google.com/file/d/1KHExncjB5oaASUcXOuYxJMIUQy6KG8cb/view?usp=sharing" target="_blank">View Sponsorship Proposal</a>
+                            The IEEE Sections Congress is a triennial gathering of Section leadership that includes four days of working sessions and networking. The Sections Congress involves hundreds of delegates from all ten IEEE Regions. At the Congress, they learn how to utilize the resources of IEEE to maximize their effectiveness as IEEE volunteer leaders. Subodha worked on developing the Sponsorship Proposal, Website and worked for fundraising. <a href="https://drive.google.com/file/d/1KHExncjB5oaASUcXOuYxJMIUQy6KG8cb/view?usp=sharing" target="_blank">View Sponsorship Proposal</a>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-sc-2017.png">
                             <img src="/images/volunteer/ieee-sc-2017.png" class="thumbnail" />
@@ -239,9 +296,9 @@
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Steering Committee Chair - Chapter & Membership Development Committee, IEEE IAS</h1>
                         <p>
-                            <ul class="list-disc pl-5">
-                                <li>Represented IAS in IEEE Asia Pacific Congress 2017 held in Bali, Indonesia</li>
-                            </ul>
+                        <ul class="list-disc pl-5">
+                            <li>Represented IAS in IEEE Asia Pacific Congress 2017 held in Bali, Indonesia</li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-ias.png">
                             <img src="/images/volunteer/ieee-ias.png" class="thumbnail" />
