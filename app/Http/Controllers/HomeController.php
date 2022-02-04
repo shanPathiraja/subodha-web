@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Post;
-use Analytics;
+// use Analytics;
 use App\Paper;
 use App\Activity;
-use Spatie\Analytics\Period;
+// use Spatie\Analytics\Period;
 
 class HomeController extends Controller
 {
@@ -80,29 +80,29 @@ class HomeController extends Controller
     {
         $plucked = [];
 
-        $analyticsData = Analytics::fetchTotalVisitorsAndPageViews(Period::days(7));
+        // $analyticsData = Analytics::fetchTotalVisitorsAndPageViews(Period::days(7));
 
-        $this->totalVisits = array_reduce(
-            $analyticsData->toArray(),
-            function ($carry, $day) {
-                $carry += $day['visitors'];
+        // $this->totalVisits = array_reduce(
+        //     $analyticsData->toArray(),
+        //     function ($carry, $day) {
+        //         $carry += $day['visitors'];
 
-                return $carry;
-            }
-        );
+        //         return $carry;
+        //     }
+        // );
 
-        $this->totalPageViews = array_reduce(
-            $analyticsData->toArray(),
-            function ($carry, $day) {
-                $carry += $day['pageViews'];
+        // $this->totalPageViews = array_reduce(
+        //     $analyticsData->toArray(),
+        //     function ($carry, $day) {
+        //         $carry += $day['pageViews'];
 
-                return $carry;
-            }
-        );
+        //         return $carry;
+        //     }
+        // );
 
-        foreach (array_merge_recursive($analyticsData->toArray()) as $day) {
-            $plucked[$day['date']->format('M j')] = $day['visitors'];
-        }
+        // foreach (array_merge_recursive($analyticsData->toArray()) as $day) {
+        //     $plucked[$day['date']->format('M j')] = $day['visitors'];
+        // }
 
         return collect(array_reverse($plucked));
     }
