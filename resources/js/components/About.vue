@@ -63,10 +63,6 @@
             <div class="ml-0 mt-6 md:mt-0 md:ml-10 text-center md:text-left flex-1">
                 <div v-if="! edit" @dblclick="setEdit">
                     <div class="text-gray-400 about-content w-full" v-html="about"></div>
-
-                    <div class="mt-6 flex items-center justify-center md:justify-start">
-                        <a :href="`mailto:${email}`" class="text-white font-semibold hover:text-blue-200 focus:text-blue-200">Get in touch <span class="ml-1">&rarr;</span></a>
-                    </div>
                 </div>
 
                 <div v-else>

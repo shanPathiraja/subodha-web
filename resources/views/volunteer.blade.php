@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="timeline-item" date-is=''>
-                        <h1 class="text-gray-800 font-bold">Tools Working Group, IEEE Industry Engagement Committee</h1>
+                        <h1 class="text-gray-800 font-bold">Member - Tools Working Group, IEEE Industry Engagement Committee</h1>
                         <p>
 
                         </p>
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="timeline-item" date-is=''>
-                        <h1 class="text-gray-800 font-bold">Tech Transfer Team, IEEE Entrepreneurship</h1>
+                        <h1 class="text-gray-800 font-bold">Member - Tech Transfer Team, IEEE Entrepreneurship</h1>
                         <p>
 
                         </p>
