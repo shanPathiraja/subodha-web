@@ -123,7 +123,7 @@
                                 <div>
                                     <span class="mr-2">Visit</span>
 
-                                    <a target="_blank" href="https://www.facebook.com/southernlankahospitals">Facebook</a>
+                                    <a target="_blank" href="https://slh.lk/">Website</a> | <a target="_blank" href="https://www.facebook.com/southernlankahospitals">Facebook</a>
                                 </div>
                             </div>
 
