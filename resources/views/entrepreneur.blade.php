@@ -57,7 +57,7 @@
             <div class="col-md-6 col-lg-3 flex flex-col flex-1 mb-4">
                 <a href="#" class="bg-white p-5 flex flex-1 flex-col items-center text-center shadow-2xl hover:shadow-lg items-center justify-center" data-toggle="modal" data-target="#alp">
                     <div class="w-56 h-56 overflow-hidden flex items-center justify-center">
-                        <img src="img/alta-vision-power.png" alt="Alta Vision Power" class="h-full">
+                        <img src="img/alta-vision-power.png" alt="Alta Vision Power" class="w-full">
                     </div>
                 </a>
                 <div class="modal fade" id="alp" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="hospitalsLabel" aria-hidden="true">
