@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="mt-10">
-                            <a class="text-sm" href="/publications">View publications <span class="ml-1">&rarr;</span></a>
+                            <a class="text-sm" href="/researcher">View publications <span class="ml-1">&rarr;</span></a>
                         </div>
                     </div>
                 </div>

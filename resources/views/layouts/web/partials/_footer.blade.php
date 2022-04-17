@@ -9,7 +9,7 @@
                 </div>
 
                 <p class="mt-4 text-xs text-gray-500 max-w-sm">
-                    A researcher (University of Moratuwa), entrepreneur (Alta Vision Pvt. Ltd.) and a volunteer (IEEE).
+                    A researcher (University of Moratuwa), entrepreneur (<a href="https://www.pearlcluster.lk" target="_blank">Pearl Cluster</a>) and a volunteer (IEEE).
                 </p>
 
                 <ul class="mt-4 flex justify-start text-base">
