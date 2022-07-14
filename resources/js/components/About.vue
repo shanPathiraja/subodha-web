@@ -19,7 +19,7 @@
                         </dt>
 
                         <dd class="text-sm leading-5 whitespace-no-wrap">
-                            <a v-if="! edit" :href="photo">Profile picture</a>
+                            <a v-if="! edit" :href="photo" target="_blank">Profile picture</a>
 
                             <input v-else type="text" name="photo" v-model="photo" class="bg-transparent text-gray-200">
                         </dd>
@@ -43,7 +43,7 @@
                         </dt>
 
                         <dd class="text-sm leading-5 whitespace-no-wrap">
-                            <a href="/docs/resume_subodhacharles.pdf">Resumé</a><br><a href="/docs/cv_subodhacharles.pdf">CV</a>
+                            <a href="/docs/resume_subodhacharles.pdf" target="_blank">Resumé</a><br><a href="/docs/cv_subodhacharles.pdf">CV</a>
                         </dd>
                     </div>
 
