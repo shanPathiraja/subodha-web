@@ -33,17 +33,29 @@
                     <div class="timeline-item" date-is='2022'>
                         <h1 class="text-gray-800 font-bold">Vice-Chair for Membership, IEEE MGA Student Activities Committee</h1>
                         <p>
-
+                        <ul class="list-disc pl-5">
+                            <li>MGA SAC is the IEEE committee responsible for student programs and benefits, and making recommendations to the Member and Geographic Activities (MGA) board.</li>
+                            <li>Subodha worked on membership retention and recovery initiatives focusing on adding value to both new and existing members.</li>
+                            <li>Specifically, the focus was on enhancing public visibility of IEEE Student's activities, creating resources for volunteers to streamline activities and reduce repetitive work and new initiatives that deliver value to IEEE Student membership.</li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-students.png">
                             <img src="/images/volunteer/ieee-students.png" class="thumbnail" />
+                        </a>
+                        <a class="image-link" href="/images/volunteer/mga-sac-2022.jpeg">
+                            <img src="/images/volunteer/mga-sac-2022.jpeg" class="thumbnail" />
                         </a>
                     </div>
 
                     <div class="timeline-item" date-is=''>
                         <h1 class="text-gray-800 font-bold">Member - Tools Working Group, IEEE Industry Engagement Committee</h1>
                         <p>
-
+                        <ul class="list-disc pl-5">
+                            <li>Industry Engagement Committee facilitates industry engagement activities across IEEE, identifies and acts on opportunities, gaps, and overlaps across IEEE, launches initiatives, and recommends to the IEEE Board needed development of products and services that meet the needs of industry, government, and industry professionals.</li>
+                            <li>As a part of the Tools Working Group, Subodha worked on developing a customer relationship management (CRM) tool to manage industry engagement activities - IEEE Industry Relations Platform. The work that started in 2021, continued with a user pilot to gather feedback and plan next steps.</li>
+                            <li>The IEEE Industry Relations Platform (IRP) is a centralized web application for IEEE organizational units and committee members to manage all aspects of their partnerships, contacts and related activities.</li>
+                            <li><a href="https://youtube.com/playlist?list=PL_CljM2YZhwYzymeo7NhHF6SFepRuveWo" target="_blank">Learn more about the IEEE Industry Relations Platform</a></li>
+                        </ul>
                         </p>
                         <a class="image-link" href="/images/volunteer/ieee-students.png">
                             <img src="/images/volunteer/ieee-iec.png" class="thumbnail" />
