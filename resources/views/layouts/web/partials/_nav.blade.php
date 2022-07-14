@@ -51,7 +51,7 @@
                 </li>
 
                 <li class="text-sm font-thin nav-item ml-0 lg:ml-8 py-2 lg:py-0">
-                    <a class="block text-gray-500 hover:text-gray-100 font-medium px-2 py-1 rounded-lg border border-gray-500 hover:border-gray-100" href="{{ route('resume') }}">
+                    <a class="block text-gray-500 hover:text-gray-100 font-medium px-2 py-1 rounded-lg border border-gray-500 hover:border-gray-100" href="/docs/resume_subodhacharles.pdf">
                         Resumé
                     </a>
                 </li>
